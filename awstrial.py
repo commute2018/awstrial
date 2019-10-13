@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify
 from pyfcm import FCMNotification
-from firebase import firebase
 
 app = Flask(__name__)
 
